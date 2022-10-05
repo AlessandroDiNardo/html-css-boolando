@@ -5,14 +5,129 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
+.col{
+    border: 2px dashed rgb(0, 89, 255);
+}
 
+/* HEADER */
+header{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+
+.header-container{
+    display: flex;
+    height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.gender{
+    width: 30%;
+    height: 100%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.others{
+    width: 30%;
+    height: 100%;
+    text-align: right;
+    padding-top: 10px;
+}
 /* HEADER */
 
 /* MAIN */
+main{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    padding: 40px 0 40px 0;
+}
+
+.card{
+    background-color: red;
+    height: 600px;
+    width: 100%;
+    margin: 20px 10px;
+    position: relative;
+}
+
+.heart{
+    background-color: green;
+    position: absolute;
+    font-size: 20px;
+    z-index: 10;
+    right: 0;
+    margin-top: 10px;
+}
+
+.rebate{
+    background-color: green;
+    position: absolute;
+    font-size: 20px;
+    z-index: 10;
+    bottom: 0;
+    margin-bottom: 50px;
+}
+
+.ecological{
+    background-color: green;
+    position: absolute;
+    font-size: 20px;
+    z-index: 10;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
 
 /* MAIN */
 
 /* FOOTER */
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
 
+.footer-container{
+    display: flex;
+    height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo-footer{
+    width: 20%;
+    height: 100%;
+    padding: 10px 10px;
+}
+
+
+
+.socials{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
 /* FOOTER */
