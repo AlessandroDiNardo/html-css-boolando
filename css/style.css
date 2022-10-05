@@ -68,7 +68,6 @@ header{
 
 /* MAIN */
 main{
-    height: auto;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -81,6 +80,7 @@ main{
 
 .card{
     width: 100%;
+    height: 500px;
     margin: 20px 10px;
     position: relative;
 }
@@ -89,17 +89,14 @@ main{
     background-color: rgb(255, 255, 255);
     width: 40px;
     height: 40px;
-    position: absolute;
     font-size: 20px;
-    z-index: 50;
-    right: 0;
+    text-align: center;
+    position: absolute; 
+    z-index: 10;
+    top: 0;
+    right: -0;
     margin-top: 10px;
     padding-top: 10px;
-    text-align: center; 
-}
-
-.heart:hover{
-    color: red;
 }
 
 .rebate{
@@ -108,7 +105,7 @@ main{
     font-size: 20px;
     z-index: 10;
     bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: 5px;
 }
 
@@ -119,9 +116,10 @@ main{
     font-size: 20px;
     z-index: 10;
     bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: 50px;
 }
+
 
 .ecological-last{
     color:white;
@@ -130,20 +128,28 @@ main{
     font-size: 20px;
     z-index: 10;
     bottom: 0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: 5px;
 }
 
 /* IMG MAIN */
-.img-model{
-    position: relative;
+.card img{ 
     width: 100%;
     height: 100%;
 }
 
-.overlay{
-    
+.top-img{
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 0; 
+   transition: all 0.5s ease;
 }
+
+.top-img:hover{
+    opacity: 1;
+}
+
 /* IMG MAIN */
 
 /* TEXT MAIN */
